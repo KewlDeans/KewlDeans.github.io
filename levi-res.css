@@ -1,0 +1,207 @@
+/* Background Image */
+html {
+    background-image: linear-gradient( rgba(232, 236, 240, .8), rgba(198, 209, 219, .0)), url("https://images.unsplash.com/photo-1616211752519-c322efa7af0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;}
+
+/* Fonts ------------*/
+.links {
+    box-sizing: border-box;
+    font-family: "poiret one", sans-serif;
+}
+
+blockquote {
+    font-family: "Text Me One",sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    text-align: left;
+}
+
+#big-title h2:hover {
+    color: salmon;
+    background-color: white;
+    padding: 0 5px;
+    transition: .3s ease;}
+
+
+/* Profile Pic Hover Border */
+#profile-pic img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: hsl(211, 32%, 68%) 5px solid;
+    align-items: center;
+    transition: all 0.1s cubic-bezier(0.83, 0, 0.17, 1);}
+
+#profile-pic img:hover {
+    box-sizing: border-box;
+    outline: rgb(243, 185, 59) 7px solid;
+    border: none;}
+
+
+    
+/* Hyperlink Appearing Box---------------------------*/
+a { 
+    text-decoration:none;
+    outline: solid rgb(250, 128, 114, 0) 1px;
+    color: hsl(217, 33%, 48%);
+    font-size:  22px;
+    font-weight: 700;
+    line-height: 40px;}
+
+.links a:hover {
+    outline: solid salmon 1px;
+    outline-offset: 10px;
+    color: salmon;
+    transition: 0.5s ease;}
+
+html {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: figtree,sans-serif;
+    font-weight: 400;}
+
+.group {
+    box-sizing: border-box;}
+
+    
+body {
+    box-sizing: border-box;
+    text-align: right;
+    color: #333333;}
+
+
+/* Work History ------------------------------------------------------------- */
+/* lines seperating work history elements  */
+table td {
+    box-sizing: border-box;
+    border-top:  #3333332d 1px solid;
+    padding: 5px 20px;}
+    
+/* Center coloring on tables and bold Job name */
+.software {
+    color: rgb(163, 81, 42);}
+.pos {
+    color: rgb(163, 81, 42);}
+.org {
+    font-weight: bold;}
+
+/* work history fun text */
+.work-list li {
+    font-size: .8em;
+    text-align: left;
+}
+.work-list li:nth-child(even) {
+    color: hsl(211, 32%, 50%);
+    padding: 10px 0;}
+
+/* Work History Border Box  */
+#work-history-box {
+    box-sizing: border-box;
+    padding: 0 15px;
+    border: solid hsl(211, 32%, 50%) 2px;
+    border-radius: 1em;}
+
+    /* Extra Space for Foot -------------------- */
+#foot {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 60vw;
+    padding: 2.5vh;
+    color: rgb(51, 51, 51, .2);}
+
+
+
+
+/* Mobile Version ---------------------------------------------------------------------------------------------------------------------------------------- */
+@media (max-width:700px){
+
+/* Body Content */
+body {
+    width: 90%;
+    margin: 0 auto;}
+
+#location {
+    display: flex;
+    justify-content: space-around;}        
+
+blockquote {
+    justify-content: center;
+    width: 80%;
+    margin-left: 18%;}
+
+
+/* Header Content  */
+#big-title {
+    display: flex;
+    justify-content: space-evenly;}
+
+
+/* Section Banner - Background */
+.group h3 {
+    box-sizing: border-box;
+    background-color: hsl(211, 32%, 68%,.7);
+    padding: .5rem;
+    color: hsl(49, 60%, 90%);
+    text-align: left;
+    padding-left: 10%;}
+
+.group p {
+    margin-top: 1px;
+    }
+
+.group h4 {
+    font-size: 1.3em;
+    margin-top: 1px;
+    display: inline-block;
+    margin: 10px;
+    }
+
+/* External Links ------------ */
+.links {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;}
+
+
+/* Hovering Profile Pic ----------------------- */
+#profile-pic {
+    position: relative;
+    right: 50%;
+    display: inline-block;}
+
+/* tech skills table */
+#tech-table {
+margin-left: 20%;}
+
+#tech-table .skills {
+text-align: left;}
+
+#Contact {
+display: flex;
+flex-flow: column;
+justify-content: left;
+padding: 0 15px;
+gap: 6px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#Contact input {
+padding: 3px;
+margin: 4px;
+}
+
+.form-head {
+    display: flex;
+    justify-content: center;
+    font-family:"Text Me One",sans-serif ;
+}
+
+}
