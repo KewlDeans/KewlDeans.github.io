@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levi's Meme Generator | Nothing Dirty</title>
+
+    <link rel="stylesheet" href="project_meme-generator-style.css">
+</head>
+
+<!-- /////////////////////////////////////////////////////////////////////////////// -->
+
+
+<body id="body">
+    
+<form id="meme-form">
+
+    
+    
+    <div class="form-row">
+    <label for="top-text" class="form-header">Setup: </label>
+    <input type="text"  id="top-text" placeholder="'The scarecrow won an award...'" class = 'input-box'>
+    </div>
+
+    <div class="form-row">
+    <label for="bottom-text" class="form-header">Punchline: </label>
+    <input type="text"  id="bottom-text" placeholder="'...Because he was out standing in his field'" class = 'input-box'>
+    </div>
+
+    <div class="form-row">
+    <label for="picked-img" class="form-header">Picture: </label>
+    <input type="text"  id="picked-img" placeholder="Paste a custom URL or Leave Blank for Dogs" class = 'input-box'>
+    </div>
+
+    <button id="create-btn">Generate</button>
+
+</form>
+
+<h2 class="fun-extra">Click for fav</h2>
+<h2 class="fun-extra">Double Click to Remove</h2>
+
+
+<div id="meme-gallery"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="project_meme-generator-app.js"></script>
+</body>
+</html>

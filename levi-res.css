@@ -131,6 +131,12 @@ table td {
     padding: 0 2%;
 }
 
+/* Dots to behave correctly under PSU  */
+.degrees li{
+    box-sizing: border-box;
+    text-align: right;
+    margin-left: 70%;
+}
 
 
 
@@ -255,12 +261,6 @@ body {
     margin: 0 auto;}
 
 
-/* Dots to behave correctly under PSU  */
-.extra-info > li {
-    box-sizing: border-box;
-    text-align: right;
-    margin-left: 40%;}
-
 blockquote {
     justify-content: center;
     margin-left: 20%;
@@ -313,8 +313,5 @@ section > h3 {
             padding: 3px;
             margin: 4px;
             }
-
-
-
 
 }

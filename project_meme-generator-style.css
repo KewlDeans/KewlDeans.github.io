@@ -1,0 +1,156 @@
+/* For Mobile, screens under 600px */
+@media (max-width: 600px) {
+
+    #meme-form {
+    width: 90vw;
+    padding: 10px;
+}
+
+    .input-box {
+        padding: 10px;
+        width: 55vw;
+    }
+
+}
+
+/* For screens larger than 600px */
+@media  (min-width: 601px) {
+    #meme-form {
+        width: 80vw;
+        padding: 0 30px;
+    }
+    
+        .input-box {
+            padding: 10px;
+            width: 50vw;
+        }
+    
+}
+
+
+
+
+
+
+/* Form that is filled out */
+#meme-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#meme-form .form-row {
+    display: flex;
+    margin: 10px;
+}
+
+#meme-form .form-row label{
+    margin-right: 5px;
+    width: 80px;
+    text-align: center;
+}
+
+
+.form-header {
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fun-extra {
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: orange;
+    background-color: white;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
+
+
+
+/* Inputs inside of the form */
+.input-box::placeholder {
+    opacity: .3;
+    color: rgb(22, 56, 100);
+}
+
+
+.input-box {
+    transition: box-shadow 250ms ease;
+}
+
+/* Hover effect to help show selection */
+.input-box:hover {
+    box-shadow:0 0 10px rgb(151, 196, 255);
+}
+
+
+
+
+/* The Gallery that holds all the new memes */
+#meme-gallery {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    padding-bottom: 50px;
+    background-color: rgba(121, 74, 20, 0.486);
+    flex-wrap: wrap;
+}
+
+
+/* individual meme images */
+.dank-meme {
+    position: relative;
+    background-color: rgb(110, 64, 32);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+    max-height: 30%;
+    width: 27%;
+    
+}
+
+.dank-meme:hover {
+    background-color: rgba(160, 111, 21, 0.6);
+}
+
+
+.meme-text {
+    position: absolute;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-wrap: wrap;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+
+}
+
+#top-text {
+    top: 10px;
+}
+
+#btm-text {
+    bottom: 10px;
+}
+
+#body {
+    background-color: #f0921f;
+background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+}
+
+.fav {
+    background-color: yellow;
+}
